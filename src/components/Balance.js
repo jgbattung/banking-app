@@ -1,6 +1,6 @@
 function Balance () {
 	return (
-		<div className="feature-div">
+		<div className="balance-div">
 			<h2 className="bank-balance">
 				<span>₱</span>100.00
 			</h2>

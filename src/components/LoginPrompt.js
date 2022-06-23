@@ -23,9 +23,11 @@ function LoginPrompt (props) {
 			</div>
 			{mainBankIsOpen && <MainBank />}
 			{mainBankIsOpen && <Balance />}
-			{mainBankIsOpen && <BankFeature text="Deposit" />}
-			{mainBankIsOpen && <BankFeature text="Withdraw" />}
-			{mainBankIsOpen && <BankFeature text="Transfer" />}
+			<div className="feature-display flex">
+				{mainBankIsOpen && <BankFeature text="Deposit" />}
+				{mainBankIsOpen && <BankFeature text="Withdraw" />}
+				{mainBankIsOpen && <BankFeature text="Transfer" />}
+			</div>
 		</div>
 	);
 }

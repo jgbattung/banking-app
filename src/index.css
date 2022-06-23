@@ -245,8 +245,8 @@ p {
 }
 
 /* Balance */
-.feature-div {
-	margin: 2rem auto;
+.balance-div {
+	margin: 2rem auto .3rem;
 	text-align: center;
 	background-color: var(--clr-neutral-100);
 	min-width: 30%;
@@ -261,4 +261,29 @@ p {
 	font-weight: 700;
 	color: var(--clr-accent);
 	padding: .5rem;
+}
+
+.feature-display {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.features {
+	font-family: var(--ff-subheading);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.feature-div {
+	margin: 2rem auto;
+	text-align: center;
+	background-color: var(--clr-neutral-100);
+	width: 20%;
+	border-radius: 2rem;
+	padding: 3rem;
+	/* flex: 1; */
 }
