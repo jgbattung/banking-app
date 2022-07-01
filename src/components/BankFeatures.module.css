@@ -1,0 +1,9 @@
+.features {
+	font-family: var(--ff-subheading);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.feature {
+	margin: 0;
+}

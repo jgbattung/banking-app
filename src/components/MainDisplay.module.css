@@ -1,0 +1,21 @@
+.actions {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.actions button {
+	font: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	cursor: pointer;
+	background-color: var(--clr-accent);
+	color: white;
+	padding: 1.5rem 3.5rem;
+	border: none;
+	border-radius: 1rem;
+	font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+	background-color: rgb(125, 12, 12);
+}

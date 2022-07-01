@@ -1,0 +1,19 @@
+@import url('../index.css');
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.red {
+	color: var(--clr-accent);
+}
+
+.black {
+	color: var(--clr-neutral-900);
+	font-size: 5rem;
+	font-weight: 700;
+	margin: 3rem;
+}

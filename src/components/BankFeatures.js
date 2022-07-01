@@ -1,11 +1,15 @@
-function BankFeature (props) {
+import classes from './BankFeatures.module.css';
+
+function BankFeatures (props) {
+	function clickHandler () {
+		alert(props.text);
+	}
+
 	return (
-		<div className="feature-div">
-			<div className="bank-feature">
-				<h2 className="features">{props.text}</h2>
-			</div>
+		<div className={classes.features} onClick={clickHandler}>
+			<h3>{props.text}</h3>
 		</div>
 	);
 }
 
-export default BankFeature;
+export default BankFeatures;

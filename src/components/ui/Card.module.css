@@ -1,0 +1,15 @@
+@import url('/src/index.css');
+
+.card {
+	background-color: var(--clr-neutral-200);
+	border-radius: 0.7rem;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+	padding: 2.5rem;
+	margin: 1rem;
+}
+
+.card:hover {
+	background-color: rgba(246, 241, 241, 0.329);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+	transition: all 200ms;
+}

@@ -1,0 +1,28 @@
+.container {
+	margin-top: 2rem;
+	cursor: pointer;
+}
+
+.balanceStyle {
+	font-family: 'Montserrat', sans-serif;
+	color: #940606;
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.account {
+	font-family: 'Hind', sans-serif;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	font-weight: bold;
+}
+
+.features {
+	font-family: var(--ff-subheading);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.feature {
+	margin: 0;
+}

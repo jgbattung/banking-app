@@ -1,0 +1,60 @@
+.modal {
+	box-shadow: 0 10px 10px rgba(19, 19, 19, 0.8);
+	color: white;
+	border-radius: 6px;
+	background-color: #940606;
+	padding: 4rem 4rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Hind', sans-serif;
+	width: 40rem;
+	z-index: 10;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+}
+
+.actions {
+	margin: 2rem 1rem;
+	text-align: center;
+	font: 'Montserrat', sans-serif;
+	font-size: 1.3rem;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	padding: 1rem 3rem;
+	border: none;
+	border-radius: 1rem;
+	font-weight: bold;
+}
+
+/* .actions button {
+	
+} */
+
+.actions:hover,
+.actions:active {
+	background-color: rgb(38, 38, 38);
+	transition: all 300ms;
+}
+
+.control {
+	margin-top: 2rem;
+}
+
+.control input,
+.control textarea {
+	display: block;
+	font: 'Hind', sans-serif;
+	font-size: 1rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 0.75rem;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.prompt {
+	font-weight: 700;
+}

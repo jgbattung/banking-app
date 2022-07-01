@@ -1,10 +1,10 @@
+import classes from './Logo.module.css';
+
 function Logo () {
 	return (
-		<div className="logo-container">
-			<h1 className="main-logo">
-				<span className="logo-span">Tyra</span>Bank
-			</h1>
-		</div>
+		<h1 className={classes.black}>
+			<span className={classes.red}>Tyra</span>Bank
+		</h1>
 	);
 }
 
